@@ -14,10 +14,11 @@ header {
   align-items: center;
   background-color: #81a908;
   height: 70px;
+  border-bottom: 3px solid #a9a881;
 }
 
 .center {
-  padding: 0 calc(50% - 570px);
+  padding: 0 calc(50% - 670px);
 }
 
 .btn-cart {
@@ -59,6 +60,11 @@ header {
 
 .product-item {
   text-align: center;
+  height: 250px;
+  width: 250px;
+  padding-top: 40px;
+  border: 1px solid #000;
+  border-radius: 15px;
 }
 
 .product__title {
@@ -70,7 +76,7 @@ header {
   font-size: 18px;
   font-weight: 500;
   color: #81a908;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
